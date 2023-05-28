@@ -49,7 +49,7 @@ async def start(client, message):
 
         reply_markup = InlineKeyboardMarkup(buttons)
 
-        m=await message.reply_sticker("CAACAgUAAxkBAAEBZslkczbZXNRD3zLchyPTb_FExIzlDAACEgUAAtt0eFUI17INDON4Fx4E") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAEBZvVkc0QFrKa3nQ-Fm9Ffq9SQmX1AFgACjgoAAl90AVKfNpKbcyBQNB4E") 
 
         await asyncio.sleep(1)
 
