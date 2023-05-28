@@ -1,7 +1,7 @@
 {
-    "name": "fm sandy",
+    "name": "Auto Spidy",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/512fbbf7ed7af92915863.jpg",
+    "logo": "https://te.legra.ph/file/d530333a7df5211566f62.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
