@@ -9,9 +9,9 @@ class script(object):
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ʟᴏᴠᴇ❤: <a href=https://t.me/Syrus_143_hpy>❤</a>
-✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Filmy_men>ғɪʟᴍʏ ᴍᴇɴ</a>
-✯ ᴍʏ ʜᴜsʙᴀɴᴅ: <a href=https://t.me/Syrus_143_hpy>亗 𝗧𝗛𝗘 𝗦𝗔𝗡ᕲ𝗠𝗔𝗡</a>
+✯ ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ: <a href=https://t.me/Mr_SPIDY>ᴍʏ ❤</a>
+✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/YourDmandZone>ғɪʟᴍʏ ᴍᴇɴ</a>
+✯ ᴍʏ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Mr_SPIDY>⚝𝗠𝗿.𝗦𝗣𝗜𝗗𝗬⚝</a>
 ✯ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
 ✯ ᴅᴀᴛᴀʙᴀsᴇ: ᴍᴏɴɢᴏᴅʙ
@@ -19,8 +19,8 @@ class script(object):
 ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v2.0.1 [ ʙᴇᴛᴀ ]</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
-<b>- ɢᴀᴀɴᴅ ᴍᴀʀᴀᴏ ʙsᴅᴋ. 
-- 𝚂𝙾𝚄𝚁𝙲𝙴 -<a href=https://t.me/syrus_143_hpy>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ</a>"""
+<b>✭ 𝒾𝓉'𝓈 𝒶 𝑜𝓅𝑒𝓃 𝓈𝑜𝓊𝓇𝒸𝑒 𝒸𝑜𝒹𝑒 𝓂𝒶𝓃 ! </b>
+✭ 𝐒𝐨𝐮𝐫𝐜𝐞 -<a href=https://graph.org/%F0%9D%90%8C%F0%9D%90%AB%F0%9D%90%92%F0%9D%90%8F%F0%9D%90%88%F0%9D%90%83%F0%9D%90%98-05-28-2>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
 
 
@@ -177,7 +177,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @FILMY_MEN"""
+ <i>This feature added by @YourDemandZone"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -268,7 +268,7 @@ Name - {}
 
 ⚠️ <b>This file will be deleted from here within 10 minute as it has copyright ... !!!</b>
 
-<b>ʏᴇ ғɪʟᴇ 𝟷𝟶 ᴍɪɴᴜᴛᴇ ᴋᴇ ᴜɴᴅᴇʀ ᴅᴇʟᴇᴛᴇ ʜᴏ ᴊᴀʏᴇɢᴀ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇ ᴋᴇ ᴡᴊᴀʜ sᴡ</b>
+<b>ʏᴇ ғɪʟᴇ 𝟷𝟶 ᴍɪɴᴜᴛᴇ ᴋᴇ ᴜɴᴅᴇʀ ᴅᴇʟᴇᴛᴇ ʜᴏ ᴊᴀʏᴇɢᴀ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇ ᴋᴇ ᴡᴊᴀʜ sᴇ</b>
 
 <b>© Powered by {}</b>
 """
@@ -297,9 +297,9 @@ Name - {}
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/Filmy_Men> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/YourDemandZone>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ </a>
 
-▫️<a href=https://t.me/Filmy_Rog>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
+▫️<a href=https://t.me/+tanY69VLEVs5OGQ1>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
