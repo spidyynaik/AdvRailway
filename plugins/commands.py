@@ -218,7 +218,7 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, text=script.VERIFY2_TXT.format(message.from_user.mention)),
             await message.reply_text(
                 text=script.VERIFED_TXT.format( message.from_user.mention),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")]]),       
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("↻ Gᴇᴛ Fɪʟᴇ", callback_data=f"{pre}#{file_id}")]]),       
                 protect_content=True,
             )
             await verify_user(client, userid, token)
