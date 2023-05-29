@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "surprise": 
         btn = [[
-            InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
+            InlineKeyboardButton('Sᴜʀᴘʀɪsᴇ 🎁', callback_data='start')
         ]]
         reply_markup=InlineKeyboardMarkup(btn)
         await query.message.edit_text(
@@ -584,13 +584,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/MR_SPIDY')
+            InlineKeyboardButton('Gʀᴏᴜᴘ 🔰', url='https://t.me/+tanY69VLEVs5OGQ1'),
+            InlineKeyboardButton('Cʀᴇᴀᴛᴏʀ 😎', url='https://t.me/MR_SPIDY')
         ], [
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('Hᴇʟᴘ ☢️', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ 🎈', callback_data='about')
          ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
+            InlineKeyboardButton('Bᴀᴄᴋ ᴛᴏ Sᴛᴀʀᴛ', callback_data='surprise')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
