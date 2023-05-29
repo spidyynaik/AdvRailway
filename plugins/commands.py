@@ -218,7 +218,7 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, text=script.VERIFY2_TXT.format(message.from_user.mention)),
             await message.reply_text(
                 text=script.VERIFED_TXT.format( message.from_user.mention),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("↻ Gᴇᴛ Fɪʟᴇ", url=f"https://telegram.me/{temp.U_NAME}?start=files_{file_id}")]]),       
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Cʟᴏsᴇ ❎", callback_data='close_data')]]),       
                 protect_content=True,
             )
             await verify_user(client, userid, token)
