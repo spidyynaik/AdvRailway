@@ -211,7 +211,7 @@ async def start(client, message):
         if str(message.from_user.id) != str(userid):
             return await message.reply_text(
                 text="<b>Exᴘɪʀᴇᴅ Lɪɴᴋ !!</b>",
-                protect_content=True,
+                protect_content=False,
             )
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
@@ -246,7 +246,7 @@ async def start(client, message):
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
-                protect_content=True if pre == 'filep' else False,
+                protect_content=False if pre == 'filep' else False,
                 )
             filetype = msg.media
             file = getattr(msg, filetype)
