@@ -219,13 +219,13 @@ async def start(client, message):
             await message.reply_text(
                 text=script.VERIFED_TXT.format( message.from_user.mention),
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Cʟᴏsᴇ ❎", callback_data='close_data')]]),       
-                protect_content=True,
+                protect_content=False,
             )
             await verify_user(client, userid, token)
         else:
             return await message.reply_text(
                 text="<b>Exᴘɪʀᴇᴅ Lɪɴᴋ !!</b>",
-                protect_content=True,
+                protect_content=False,
             )
 
     files_ = await get_file_details(file_id)           
@@ -239,7 +239,7 @@ async def start(client, message):
                 ]]
                 await message.reply_text(
                     text=script.VERIFY_TXT.format( message.from_user.mention),
-                    protect_content=True,
+                    protect_content=False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 return
