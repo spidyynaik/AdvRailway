@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://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@github.com/spidyynaik/ADV-VPS.git /CALOPY-SPIDY
+  git clone https://github.com/spidyynaik/ADV-CALIOPY.git /CALOPY-SPIDY
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /CALOPY-SPIDY
