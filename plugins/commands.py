@@ -204,14 +204,14 @@ async def start(client, message):
                     continue
             await asyncio.sleep(1) 
         return await sts.delete()
-
-    elif data.split("-", 1)[0] == "verify":
-        userid = data.split("-", 2)[1]
-        token = data.split("-", 3)[2]
-        if str(message.from_user.id) != str(userid):
-            return await message.reply_text(
-                text="<b>Exᴘɪʀᴇᴅ Lɪɴᴋ !!</b>",
-                protect_content=False,
+            
+            elif data.split("-", 1)[0] == "verify":
+                userid = data.split("-", 2)[1]
+                token = data.split("-", 3)[2]
+                if str(message.from_user.id) != str(userid):
+                     return await message.reply_text(
+                     text="<b>Exᴘɪʀᴇᴅ Lɪɴᴋ !!</b>",
+                     protect_content=False,
             )
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
