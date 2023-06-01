@@ -4,7 +4,7 @@ then
   git clone https://github.com/spidyynaik/AdvRailway /spidyauto
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /AutoFilter
+  git clone $UPSTREAM_REPO /spidyauto
 fi
 cd /spidyauto
 pip3 install -U -r requirements.txt
